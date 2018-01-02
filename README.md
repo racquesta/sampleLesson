@@ -33,7 +33,9 @@ Google Sheets.
 
 ### 3. Everyone Do: Getting Set Up (0:03)
 
-This first activity is to familarize students with creating a container-bound script in Google Sheets.  Have student sign into their Google Drive account by going to to https://www.google.com/drive/.  Once they are signed into google drive have them make a new folder to hold the Google Sheets for this lesson.  
+Have students follow along with this first activity to familarize them with creating a container-bound script in Google Sheets and setting the correct permissions.  
+
+Have student sign into their Google Drive account by going to to https://www.google.com/drive/.  Once they are signed into google drive have them make a new folder to hold the Google Sheets for this lesson.  
 
 ![03-CreateNewFolder](Images/03-CreateNewFolder.png)
 
@@ -41,7 +43,9 @@ Once inside this Folder have them add a new Google Sheet by choosing `NEW > Goog
 
 ![03-NewSheetsFile](Images/03-NewSheetsFile.png)
 
-* The Script Editor is found by going to the `Tools` menu and choosing `Script Editor...`.  
+Students will want to click on the Title of the Spreadsheet currently reading `Untitled spreadsheet` and rename to a title of their chosing.  Explain to student who are unfamilar with G Suite Applications that all changes are immediately saved.  
+
+The Script Editor is found by going to the `Tools` menu and choosing `Script Editor...`.  
 
 ![03-FindingScriptEditor](Images/03-FindingScriptEditor.png)
 
