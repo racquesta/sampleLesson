@@ -35,7 +35,9 @@ Google Sheets.
 
 * This first activity is to familarize students with creating a container-bound script in Google Sheets.  
 
-* The Script Editor is found by going to the `Tools` menu.  
+* The Script Editor is found by going to the `Tools` menu and choosing `Script Editor...`.  
+
+![03-FindingScriptEditor](Images/03-FindingScriptEditor.png)
 
 
 
