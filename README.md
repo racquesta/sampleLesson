@@ -25,5 +25,5 @@ Google Sheets.
 
 ### 1. Instructor Do: Welcome Student (0:01)
 
-* Take a minute to welcome students and see how they are fdoing while opening the [Google Apps Script Slides] (https://docs.google.com/presentation/d/1ynneIPznmbAwAoNVCto-vulT6IBh7p8fueSiiWtuYN8/edit?usp=sharing)
+* Take a minute to welcome students and see how they are doing while opening the [Google Apps Script Slides](https://docs.google.com/presentation/d/1ynneIPznmbAwAoNVCto-vulT6IBh7p8fueSiiWtuYN8/edit?usp=sharing).
 
