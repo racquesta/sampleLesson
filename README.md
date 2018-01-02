@@ -39,7 +39,7 @@ This first activity is to familarize students with creating a container-bound sc
 
 Once inside this Folder have them add a new Google Sheet by choosing 'NEW > Google Sheets > Blank spreadsheet'.
 
-![03-NewSheetsFile](Images/03-NewSheetsFile.png
+![03-NewSheetsFile](Images/03-NewSheetsFile.png)
 
 * The Script Editor is found by going to the `Tools` menu and choosing `Script Editor...`.  
 
