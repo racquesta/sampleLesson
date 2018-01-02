@@ -37,7 +37,7 @@ This first activity is to familarize students with creating a container-bound sc
 
 ![03-CreateNewFolder](Images/03-CreateNewFolder.png)
 
-Once inside this Folder have them add a new Google Sheet by choosing 'NEW > Google Sheets > Blank spreadsheet'.
+Once inside this Folder have them add a new Google Sheet by choosing `NEW > Google Sheets > Blank spreadsheet`.
 
 ![03-NewSheetsFile](Images/03-NewSheetsFile.png)
 
