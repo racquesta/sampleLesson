@@ -23,7 +23,13 @@ Google Sheets.
 
 - - - 
 
-### 1. Instructor Do: Welcome Student (0:01)
+### 1. Instructor Do: Welcome Students (0:01)
 
 * Take a minute to welcome students and see how they are doing while opening [Introduction to Google Apps Script](https://docs.google.com/presentation/d/1ynneIPznmbAwAoNVCto-vulT6IBh7p8fueSiiWtuYN8/edit?usp=sharing).
+
+### 2. Instructor Do: Introduction Google Apps Script (0.03)
+
+* Explain to 
+
+### 3. Everyone Do: 
 
