@@ -31,5 +31,11 @@ Google Sheets.
 
 * Explain to 
 
-### 3. Everyone Do: 
+### 3. Everyone Do: Getting Set Up (0:03)
+
+* This first activity is to familarize students with creating a container-bound script in Google Sheets.  
+
+* The Script Editor is found by going to the `Tools` menu.  
+
+
 
