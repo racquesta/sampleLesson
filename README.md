@@ -69,7 +69,7 @@ Generally, the first time a new script is run inside a Google App, it will requi
 
   5. Choosing `Allow`.
   
-__Note important parts of this code for students:__
+__Note important parts of the code for students:__
 
 * The first line of the function required to identify the current sheet so that we may interact with it.  `SpreadsheetApp ` is the parent class for Google's spreadsheet service and allows us to access the `getActiveSheet` method which sets the current sheet in the Spreadsheet. 
 
@@ -77,7 +77,7 @@ __Note important parts of this code for students:__
 
 * The `Logger` class is similar to the console in javascript.  It allows us to write out or retrieve text from the the debugging log.  The log can be found by going to `Views > Logs`.
 
-* Slack out the following link to students:
+* Slack out the following Google Apps Script Spreadsheet Reference link to students:
 [Google Apps Script - Spreadsheet Reference](https://developers.google.com/apps-script/reference/spreadsheet/)
 
 
