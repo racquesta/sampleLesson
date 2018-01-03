@@ -49,8 +49,8 @@ The Script Editor is found by going to the `Tools` menu and choosing `Script Edi
 
 ![03-FindingScriptEditor](Images/01-FindingScriptEditor.png)
 
-Slack out [01-Evr_SetUpScript.gs](https://github.com/racquesta/sampleLesson/blob/master/Activities/01-Evr_SetUpScript/01-Erv_setUpScript.gs) to students, and have them copy and paste the script into their Google script editor, give the script a new name, save, and run the script either by pressing the ![01-RunButton]() or choosing `Run > Run function > Function Name`.  
-![01-RunMenu](link)
+Slack out [01-Evr_SetUpScript.gs](https://github.com/racquesta/sampleLesson/blob/master/Activities/01-Evr_SetUpScript/01-Erv_setUpScript.gs) to students, and have them copy and paste the script into their Google script editor, give the script a new name, save, and run the script either by pressing the ![01-RunButton](Images/01-RunButton.png) or choosing `Run > Run function > Function Name`.  
+![01-RunMenu](Images/RunMenu.png)
 
 Generally, the first time a new script is run inside a Google App, it will require authorization.  Students can complete this process by:
 
