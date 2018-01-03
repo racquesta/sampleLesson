@@ -49,7 +49,7 @@ The Script Editor is found by going to the `Tools` menu and choosing `Script Edi
 
 ![03-FindingScriptEditor](Images/03-FindingScriptEditor.png)
 
-Slack out [01-Evr_SetUpScript.gs](https://github.com/racquesta/sampleLesson/tree/master/Activities/01-Evr_SetUpScript) to students.
+Slack out [01-Evr_SetUpScript.gs](https://github.com/racquesta/sampleLesson/blob/master/Activities/01-Evr_SetUpScript/01-Erv_setUpScript.gs) to students.
 
 
 
