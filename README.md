@@ -71,6 +71,8 @@ Generally, the first time a new script is run inside a Google App, it will requi
   
 __Note important parts of the code for students:__
 
+![01-FirstScript](Images/01-FirstScript.png)
+
 * The first line of the function required to identify the current sheet so that we may interact with it.  `SpreadsheetApp ` is the parent class for Google's spreadsheet service and allows us to access the `getActiveSheet` method which sets the current sheet in the Spreadsheet. 
 
 * The `getUi` method returns an instance of the spreadsheets user inferface and allos us to add menus, dialogs, and sidebars.
