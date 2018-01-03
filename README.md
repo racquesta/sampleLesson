@@ -49,5 +49,7 @@ The Script Editor is found by going to the `Tools` menu and choosing `Script Edi
 
 ![03-FindingScriptEditor](Images/03-FindingScriptEditor.png)
 
+Slack out the script in 
+
 
 
