@@ -81,5 +81,8 @@ __Note important parts of the code for students:__
 
 * Slack out the following Google Apps Script Spreadsheet Reference link to students: https://developers.google.com/apps-script/reference/spreadsheet/
 
+### 4. Instructor Do: Keeping Invertory
+
+Open the [02-Ins_KeepingInventory]() Google Sheet and script and walk through code with students.  
 
 
