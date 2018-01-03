@@ -37,19 +37,45 @@ Have students follow along with this first activity to familarize them with crea
 
 Have student sign into their Google Drive account by going to to https://www.google.com/drive/.  Once they are signed into google drive have them make a new folder to hold the Google Sheets for this lesson.  
 
-![03-CreateNewFolder](Images/03-CreateNewFolder.png)
+![03-CreateNewFolder](Images/01-CreateNewFolder.png)
 
 Once inside this Folder have them add a new Google Sheet by choosing `NEW > Google Sheets > Blank spreadsheet`.
 
-![03-NewSheetsFile](Images/03-NewSheetsFile.png)
+![03-NewSheetsFile](Images/01-NewSheetsFile.png)
 
 Students will want to click on the Title of the Spreadsheet currently reading `Untitled spreadsheet` and rename to a title of their chosing.  Explain to student who are unfamilar with G Suite Applications that all changes are immediately saved.  
 
 The Script Editor is found by going to the `Tools` menu and choosing `Script Editor...`.  
 
-![03-FindingScriptEditor](Images/03-FindingScriptEditor.png)
+![03-FindingScriptEditor](Images/01-FindingScriptEditor.png)
 
-Slack out [01-Evr_SetUpScript.gs](https://github.com/racquesta/sampleLesson/blob/master/Activities/01-Evr_SetUpScript/01-Erv_setUpScript.gs) to students.
+Slack out [01-Evr_SetUpScript.gs](https://github.com/racquesta/sampleLesson/blob/master/Activities/01-Evr_SetUpScript/01-Erv_setUpScript.gs) to students, and have them copy and paste the script into their Google script editor, give the script a new name, save, and run the script either by pressing the ![01-RunButton]() or choosing `Run > Run function > Function Name`.  
+![01-RunMenu](link)
+
+Generally, the first time a new script is run inside a Google App, it will require authorization.  Students can complete this process by:
+
+  1. Clicking `Review Permissions` in the Authorization required window.
+  ![01-AuthorizationRequired](Images/01-AuthorizationRequired.png)
+  
+  2. Choosing the google account they are currently using.
+  ![01-ChooseEmail](Images/01-ChooseEmail.png)
+  
+  3. Clicking the `Advanced` link.  
+  ![01-ChoosingAdvanced](Images/01-ChoosingAdvanced.png)
+  
+  4. Scrolling down and clicking the link that reads `Go to (script name)(unsafe)`.
+  ![01-ChoosingGoTo](Images/01-ChoosingGoTo.png)
+
+
+Note important parts of this code for students:
+
+* The first line of the function required to identify the current sheet so that we may interact with it.  `SpreadsheetApp ` is the parent class for Google's spreadsheet service and allows us to access the `getActiveSheet` method which sets the current sheet in the Spreadsheet. 
+
+* The `getUi` method returns an instance of the spreadsheets user inferface and allos us to add menus, dialogs, and sidebars.
+
+* The `Logger` class is similar to the console in javascript.  It allows us to write out or retrieve text from the the debugging log.  The log can be found by going to `Views > Logs`.
+
+[Google Apps Script - Spreadsheet Reference](https://developers.google.com/apps-script/reference/spreadsheet/)
 
 
 
