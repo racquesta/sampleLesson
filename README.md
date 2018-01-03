@@ -79,8 +79,7 @@ __Note important parts of the code for students:__
 
 * The `Logger` class is similar to the console in javascript.  It allows us to write out or retrieve text from the the debugging log.  The log can be found by going to `Views > Logs`.
 
-* Slack out the following Google Apps Script Spreadsheet Reference link to students:
-[Google Apps Script - Spreadsheet Reference](https://developers.google.com/apps-script/reference/spreadsheet/)
+* Slack out the following Google Apps Script Spreadsheet Reference link to students: https://developers.google.com/apps-script/reference/spreadsheet/
 
 
 
