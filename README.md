@@ -92,7 +92,7 @@ Unlike javascript, you cannot call multiple functions by running one .gs file.  
 * From the `Run` menu, choose  `Run function` and choose the function you would like run.
 
 * From the ![01-RunButton](Images/01-RunButton.png) after selecting your desired function from the dropdown.  
-![02-FunctionDropdown](Images/02-FunctionDropDown.png)
+![02-FunctionDropdown](Images/02-FunctionDropdown.png)
 
 If you desire to run several functions from one script, you must call them from inside the function you choose.
 
@@ -108,7 +108,7 @@ If you desire to run several functions from one script, you must call them from 
 
 2. The `getColumn` function returns a list of the fruits from the first column excluding the header row.  Note the structure of the 2D Array for students.  Each row is a separate array within the array while column values are the values held in that inner array.  
 
-![02-columnRangeCode](Images/02-columnRangeCode.png) ![02-columnRangeOutput](Images/02-columnRangeOutput.png)
+![02-columnRangeCode](Images/02-columnrangeCode.png) ![02-columnRangeOutput](Images/02-columnRangeOutput.png)
 
 3.  The `retrieveAllData()` function returns a 2D array holding all of the data in the sheet.
 ![02-retrieveAllDataCode](Images/02-retrieveAllDataCode.png)
