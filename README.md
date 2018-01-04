@@ -81,8 +81,23 @@ __Note important parts of the code for students:__
 
 * Slack out the following Google Apps Script Spreadsheet Reference link to students: https://developers.google.com/apps-script/reference/spreadsheet/
 
-### 4. Instructor Do: Keeping Invertory
+#### 4. Instructor Do: Cells and Ranges
+
+The aim of this activity is to familiarize students with retrieving and manipulating different attributes of cells. 
+
+Slack out the following link to students so that they may follow along with the code: [link](force copy link)
+
+Open [02-CellsAndRanges](link) and go through the code with students.  
+
+
+
+
+
+### 5. Instructor Do: Keeping Inventory
 
 Open the [02-Ins_KeepingInventory]() Google Sheet and script and walk through code with students.  
 
+
+
+### 6. Students Do: Keeping Inventory
 
