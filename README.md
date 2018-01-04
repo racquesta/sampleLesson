@@ -114,8 +114,13 @@ If you desire to run several functions from one script, you must call them from 
 ![02-retrieveAllDataCode](Images/02-retrieveAllDataCode.png)
 ![02-retrieveAllDataOutput](Images/02-retrieveAllDataOutput.png)
 
+4. Both the `writeCellsAndRanges()` and `newData()` functions enable us to write data to the sheet.  The first retrieving and editing data from the sheet, and then writing it back to the same cell, and the later writing an entire range of new data to the sheet.  
 
+* Note for students that the range indentified must match dimensions of the new data or an error will be returned.  Due to this, the new data array must be a 2D array.  
 
+![02-writeCellsAndRanges](Images/02-writeCellsAndRanges.png) ![02-newData](Images/02-newData.png)
+
+5. Let students know that in this activity we were mostly working with sheet and range classes, and available methods for both can be found in the Google Apps Script Reference at https://developers.google.com/apps-script/reference/spreadsheet/sheet and https://developers.google.com/apps-script/reference/spreadsheet/range respectively.  You may want to slack out these links as the next activity will depend on them identifying methods from both.  
 
 ### 5. Students Do: Pixel Art
 
