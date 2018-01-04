@@ -104,7 +104,7 @@ If you desire to run several functions from one script, you must call them from 
 
 * The syntax for the second `getRange()` method is `getRange(rowCoordinate, columnCoordinate, Number of Rows, Number of Columns)` and will return the range with the top left cell at the given coordinates with the given number of rows and columns.
 
-![02-rowRangeCode2](Images/02-rowRangeCode2.png) 
+![02-rowRangeCode2](Images/02-rowrangeCode2.png) 
 
 2. The `getColumn` function returns a list of the fruits from the first column excluding the header row.  Note the structure of the 2D Array for students.  Each row is a separate array within the array while column values are the values held in that inner array.  
 
