@@ -82,12 +82,37 @@ __Note important parts of the code for students:__
 * Slack out the following Google Apps Script Spreadsheet Reference link to students: https://developers.google.com/apps-script/reference/spreadsheet/
 
 ### 4. Instructor Do: Cells and Ranges
+ 
+Open and slack out the following link to students so they may follow along with the code: https://docs.google.com/spreadsheets/d/1pLszOnk7HanYVpFPMcdpfOuobDuHcA2oS7-aLvytq9Q/copy (Note: This link will force the user to make a copy.)
 
-The aim of this activity is to familiarize students with retrieving and manipulating different attributes of cells. 
+This spreadsheet contains 5 functions with the goal of familiarizing students with retrieving and manipulating different attributes of cells.  
 
-Slack out the following link to students so that they may follow along with the code: [link](read only link)
+Unlike javascript, you cannot call multiple functions by running one .gs file.  Instead, you must choose a function to run in one of two ways:
 
-Open [02-CellsAndRanges](link) and go through the code with students.  
+* From the `Run` menu, choose  `Run function` and choose the function you would like run.
+
+* From the ![01-RunButton](Images/01-RunButton.png) after selecting your desired function from the dropdown.  
+![02-FunctionDropdown][Images/02-FunctionDropDown.png]
+
+If you desire to run several functions from one script, you must call them from inside the function you choose.
+
+1. The first function covers several ways to indentify a range of cells with Google Apps Script.  
+
+* Note that the method `getRange()` only returns a range object, but does not return the values contained in that range.  This object can be chained with .getValues() to return a *2D array of values*.
+
+![02-
+
+* The syntax for the second `getRange()` method is `getRange(rowCoordinate, columnCoordinate, Number of Rows, Number of Columns)` and will return the range with the top left cell at the given coordinates with the given number of rows and columns.
+
+![02-rowRangeCode](Images/02-rowRangeCode.png)
+![02-rowRangeOutput](Images/02-rowRangeOutput.png)
+
+2. The `getColumn` function returns a list of the fruits from the first column excluding the header row.  Note the structure of the 2D Array for students.  Each row is a separate array within the array while column values are the values held in that inner array.  
+
+![02-columnRangeCode](Images/02-columnRangeCode.png)
+![02-columnRangeOutput](Images/02-columnRangeOutput.png)
+
+3.  The `retrieveAllData()` function returns a 2D array holding all of the data in the sheet.
 
 
 
