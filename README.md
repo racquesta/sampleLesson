@@ -100,7 +100,7 @@ If you desire to run several functions from one script, you must call them from 
 
 * Note that the method `getRange()` only returns a range object, but does not return the values contained in that range.  This object can be chained with .getValues() to return a *2D array of values*.
 
-!![02-rowRangeCode1](Images/02-rowRangeCode1.png)![02-rowRangeOutput](Images/02-rowRangeOutput.png)
+![02-rowRangeCode1](Images/02-rowRangeCode1.png)![02-rowRangeOutput](Images/02-rowRangeOutput.png)
 
 * The syntax for the second `getRange()` method is `getRange(rowCoordinate, columnCoordinate, Number of Rows, Number of Columns)` and will return the range with the top left cell at the given coordinates with the given number of rows and columns.
 
