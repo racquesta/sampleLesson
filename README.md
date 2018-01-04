@@ -92,7 +92,7 @@ Unlike javascript, you cannot call multiple functions by running one .gs file.  
 * From the `Run` menu, choose  `Run function` and choose the function you would like run.
 
 * From the ![01-RunButton](Images/01-RunButton.png) after selecting your desired function from the dropdown.  
-![02-FunctionDropdown][Images/02-FunctionDropDown.png]
+![02-FunctionDropdown](Images/02-FunctionDropDown.png)
 
 If you desire to run several functions from one script, you must call them from inside the function you choose.
 
@@ -100,11 +100,11 @@ If you desire to run several functions from one script, you must call them from 
 
 * Note that the method `getRange()` only returns a range object, but does not return the values contained in that range.  This object can be chained with .getValues() to return a *2D array of values*.
 
-!![02-rowRangeCode1](Images/02-rowRangeCode.png)![02-rowRangeOutput](Images/02-rowRangeOutput.png)
+!![02-rowRangeCode1](Images/02-rowRangeCode1.png)![02-rowRangeOutput](Images/02-rowRangeOutput.png)
 
 * The syntax for the second `getRange()` method is `getRange(rowCoordinate, columnCoordinate, Number of Rows, Number of Columns)` and will return the range with the top left cell at the given coordinates with the given number of rows and columns.
 
-![02-rowRangeCode2](Images/02-rowRangeCode.png) 
+![02-rowRangeCode2](Images/02-rowRangeCode2.png) 
 
 2. The `getColumn` function returns a list of the fruits from the first column excluding the header row.  Note the structure of the 2D Array for students.  Each row is a separate array within the array while column values are the values held in that inner array.  
 
