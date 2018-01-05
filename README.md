@@ -4,22 +4,33 @@
 
 Today, we will introducing student to to Google Apps Script which can be used to extend the capabilities of G Suite products.  We will be focusing primarily on creating scripts to interact with Google Sheets.  
 
-##### Instructor Priorities/Prior Knowledge Requirements
+##### Instructor Priorities
 
-* Student should have a google account and be familiar with Google Drive.  
-* Students should have a basic understanding of javascript functions, variables, conditionals, and loops.
+* Students should be able to apply methods specific to Google Apps Script to manipulate a Google Sheets file and create a new event.  
+* Students should complete `03-Stu_PixelArt`.
+* Students should complete `04-Stu_OfficeInventory_PartII`
+* Students should complete `05-Stu_EmbeddingCharts`
+
 
 ##### Instructor Notes
 
-* Needs editing
+__Prior KNowledge Requirements:__
+* Student should have a google account and be familiar with Google Drive.  
+* Students should have a basic understanding of javascript functions, variables, conditionals, and loops.
+
+* Today, students will use their knowledge of javascript to use Google Apps Script to interact with a Google Sheets file.
+* Google Apps script is javascript based but they provide some of their own classes and methods which can be found at 
+https://developers.google.com/apps-script/reference/.
+* Google Apps Script is a helpful skill to know, especially when your data is automatically being pumped there from a Google Form or some other third party service.
+*  The learning curve for Google Apps Script is not that steep due to Google's clear reference.  Learning just a few custom methods allows students to dig deeper and incorporate more advanced functions rather quickly.  
 
 - - -
 
 ### Objectives
 
-* To introduce students to the capabilities of using Google Apps Script to create macros, custom functions, and charts in 
+* To introduce students to the capabilities of using Google Apps Script to create macros, menus, dialogs, and charts in 
 Google Sheets. 
-* 
+* To have students become proficient in controling a Google Sheet programatically.  
 
 - - - 
 
