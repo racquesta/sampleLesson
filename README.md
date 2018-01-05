@@ -56,15 +56,19 @@ Slack out [01-Evr_SetUpScript.gs](https://github.com/racquesta/sampleLesson/blob
 Generally, the first time a new script is run inside a Google App, it will require authorization.  Students can complete this process by:
 
   1. Clicking `Review Permissions` in the Authorization required window.
+  
   ![01-AuthorizationRequired](Images/01-AuthorizationRequired.png)
   
   2. Choosing the google account they are currently using.
+  
   ![01-ChooseEmail](Images/01-ChooseEmail.png)
   
   3. Clicking the `Advanced` link.  
+  
   ![01-ChoosingAdvanced](Images/01-ChoosingAdvanced.png)
   
   4. Scrolling down and clicking the link that reads `Go to (script name)(unsafe)`.
+  
   ![01-ChoosingGoTo](Images/01-ChoosingGoTo.png)
 
   5. Choosing `Allow`.
