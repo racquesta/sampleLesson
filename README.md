@@ -150,10 +150,10 @@ Open the [02-Ins_KeepingInventory]() Google Sheet and script and walk through co
 ### 8. Students Do: Keeping Inventory Part II
 
 
-### 8. Instructor Do:  Review Keeping Inventory Part II
+### 9. Instructor Do:  Review Keeping Inventory Part II
 
 
-### 9.  Students Do:  Football Scoresheet
+### 10.  Students Do:  Football Scoresheet
 
 
 
