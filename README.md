@@ -235,9 +235,9 @@ Ask students whether they completed the bonus code.  Ask them to share their sol
 
 ### 10.  Instructor Do:  Charting Calories
 
-This activity is to assimilate students with using Google's chart builder feature.  
+This activity is to assimilate students with using Google's chart builder feature.  You can find the spreadsheet link [here](https://docs.google.com/spreadsheets/d/1vu9ilByA50Qruq8RZeryUO0FlfXui3rFFnTg7fayxZI/copy).  The code can be found [here]()
 
-Go over the code for students or have them talk briefly to each other about what they think the code does and how it works as a class.  
+Go over the code for students or have them talk briefly to each other about what they think the code does and how it works.  
 
 There are a couple things to highlight in this code:
 
