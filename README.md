@@ -143,7 +143,7 @@ If you desire to run several functions from one script, you must call them from 
 
 Open the Google Sheets file at the provided link, and run the code to demonstrate the solution to students. 
 
-__Slack out the Instructions to students: [03-Stu_PixelArt Instructions]__
+__Slack out the Instructions to students__: [03-Stu_PixelArt Instructions]
 (https://github.com/racquesta/sampleLesson/blob/master/Activities/03-Stu_PixelArt/Instructions.md)
 
 Google Sheets File : https://docs.google.com/spreadsheets/d/1k3SnVr-ghBhsfBYd1n1v0aG7XgGMwA9Cpnge4CYDrWQ/copy 
