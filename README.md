@@ -124,11 +124,13 @@ If you desire to run several functions from one script, you must call them from 
 
 ### 5. Students Do: Pixel Art
 
+Open the Google Sheets file at the provided link, and run the code to demonstrate the solution to students. 
+
 Slack out the Instructions to students: [03-Stu_PixelArt Instructions](https://github.com/racquesta/sampleLesson/blob/master/Activities/03-Stu_PixelArt/Instructions.md)
 
 Google Sheets File : https://docs.google.com/spreadsheets/d/1k3SnVr-ghBhsfBYd1n1v0aG7XgGMwA9Cpnge4CYDrWQ/copy 
 
-1. Open the Google Sheets file at the provided link, and run the code to demonstrate the solution to students.  
+1. Open the Google Sheets file at the provided link, make a copy in your Google Drive, and open the Script Editor.  
 
 2. Color the Pixel Art Face using colors of your choosing.  Some hexidecimal color codes are provided should you want to use them.  Otherwise, a simple google search for the color you are looking for or a visit to http://cloford.com/resources/colours/500col.htm will do.  
 
