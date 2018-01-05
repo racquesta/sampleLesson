@@ -228,8 +228,8 @@ Ask students whether they completed the bonus code.  Ask them to share their sol
 
 `onOpen` is a reserved function name in Google, and `e` asks similar to `this`.  In this case it represents the spreadsheet being opened.    
 
-![04-InvControlCustomMenu](Images/04-InvControlCustomMenu.gs)
-![04-InvControlBonusSolutionFunction](Images/04-InvControlBonusSolutionFunction.gs)
+![04-InvControlCustomMenu](Images/04-InvControlCustomMenu.png)
+![04-InvControlBonusSolutionFunction](Images/04-InvControlBonusSolutionFunction.png)
 
 
 
