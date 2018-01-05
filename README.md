@@ -281,7 +281,7 @@ Here is an example of a solution:
 
 Link: https://docs.google.com/spreadsheets/d/1Qwlzg-4cHgF_o84xE66UOVfBDgUTvCTSa8-3M3W5yZw/copy
 
-![08-ChallengeSolution](Images/08-ChallendgeSolution.png)
+![08-ChallengeSolution](Images/08-ChallengeSolution.png)
 
 
 
