@@ -174,7 +174,7 @@ Open the [02-Ins_KeepingInventory]() Google Sheet and script and walk through co
 
 In this activity, students will be editing the [04-OfficeInventory] script to return a different alert if the item is not in ventory.  
 
-Slack out the Instructions to Students: 
+Slack out the [Instructions](https://github.com/racquesta/sampleLesson/blob/master/Activities/05-Stu_InvControl_Part2/Instructions.md) to Students: 
 
 Oh no!  The current inventory interface is not very friendly and does not offer the ability to add new items to the list.  Open the speadsheet at https://docs.google.com/spreadsheets/d/1izJAXW77oYjh2MPspuGUjirxJ2ZViJfztjcMbhi2Dwk/copy and alter the script to do the following.
 
