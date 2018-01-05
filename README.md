@@ -14,7 +14,7 @@ Today, we will introducing student to to Google Apps Script which can be used to
 
 ##### Instructor Notes
 
-__Prior KNowledge Requirements:__
+__Prior Knowledge Requirements:__
 * Student should have a google account and be familiar with Google Drive.  
 * Students should have a basic understanding of javascript functions, variables, conditionals, and loops.
 
