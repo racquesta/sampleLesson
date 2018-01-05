@@ -128,7 +128,7 @@ Slack out the Instructions to students:
 
 https://docs.google.com/spreadsheets/d/1k3SnVr-ghBhsfBYd1n1v0aG7XgGMwA9Cpnge4CYDrWQ/copy 
 
-[Instructions](Instructions README here)
+[Instructions](https://github.com/racquesta/sampleLesson/blob/master/Activities/03-Stu_PixelArt/Instructions.md)
 
 Google Sheets File : https://docs.google.com/spreadsheets/d/1k3SnVr-ghBhsfBYd1n1v0aG7XgGMwA9Cpnge4CYDrWQ/copy 
 
