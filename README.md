@@ -141,11 +141,19 @@ Hint:  You may want to incorporate javascript conditionals and/or loops to make 
 ### 6. Instructor Do: Review Pixel Art
 
 
-### 6. Instructor Do: Keeping Inventory
+### 7. Instructor Do: Keeping Inventory Part 1
 
 Open the [02-Ins_KeepingInventory]() Google Sheet and script and walk through code with students.  
 
 
 
-### 7. Students Do: Keeping Inventory
+### 8. Students Do: Keeping Inventory Part II
+
+
+### 8. Instructor Do:  Review Keeping Inventory Part II
+
+
+### 9.  Students Do:  Football Scoresheet
+
+
 
