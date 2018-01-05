@@ -235,9 +235,9 @@ Ask students whether they completed the bonus code.  Ask them to share their sol
 
 ### 10.  Instructor Do:  Charting Calories
 
-This activity is to assimilate students with using Google's chart builder feature.  You can find the spreadsheet link [here](https://docs.google.com/spreadsheets/d/1vu9ilByA50Qruq8RZeryUO0FlfXui3rFFnTg7fayxZI/copy).  The code can be found [here]()
+This activity is to assimilate students with using Google's chart builder feature.  You can find the spreadsheet link [here](https://docs.google.com/spreadsheets/d/1vu9ilByA50Qruq8RZeryUO0FlfXui3rFFnTg7fayxZI/copy).
 
-Go over the code for students or have them talk briefly to each other about what they think the code does and how it works.  
+Go over the code ([06-Ins_creatingCharts](https://github.com/racquesta/sampleLesson/blob/master/Activities/06-Ins_creatingCharts/creatingCharts.gs)) for students or have them talk briefly to each other about what they think the code does and how it works.  
 
 There are a couple things to highlight in this code:
 
@@ -255,7 +255,9 @@ There are a couple things to highlight in this code:
 
 ### 11. Pairs Do: Troubleshooting Chart Updates
 
-Slack out the speadsheet link to students.  Explain the directions below.    
+Slack out the speadsheet link to students.  Explain the directions below.   
+
+Link: https://docs.google.com/spreadsheets/d/1uLL5RVRHFULIzZo3mtG4Fb-xVSYv2yu6wS1CC96qL2E/copy
 
 A programatically created chart is really no good if it doesn't have the ability to update with new data.  Alter the code so that the graph updates upon running the function.  
 
@@ -265,6 +267,8 @@ Ask for volunteers to go over how they solve the problem above.  Use the below c
 
 ![07-TroubleshootingUpdates](Images/07-TroublshootingUpdates.png)
 
+Link to Solution: https://docs.google.com/spreadsheets/d/1E-yIIbh0tpHzuZ_nF8CbGmBLV63tKjncu_s5mhXMsQw/copy
+
 ### 13.  CHALLENGE/HW
 
 __Instructions__:
@@ -272,6 +276,14 @@ __Instructions__:
 Using this file: https://docs.google.com/spreadsheets/d/17xtQTlqTQv9fEGHdHVaJsvYDGFVgtZ2inTmaUtE-_1k/copy programatically create an additional column to hold the boardgame category.  Columns 0 through V hold rankings with each category.  If that cells hold value, the board game fits into that category.  Some boardgames fall into several categorys, choose the category that appears first from left to right. 
 
 Go beyond: Use the information provided in the spreadsheet to programatically make meaningful charts.  
+
+Here is an example of a solution:
+
+Link: https://docs.google.com/spreadsheets/d/1Qwlzg-4cHgF_o84xE66UOVfBDgUTvCTSa8-3M3W5yZw/copy
+
+![08-ChallengeSolution](Images/08-ChallendgeSolution.png)
+
+
 
 
 
