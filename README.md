@@ -216,7 +216,7 @@ Hints:
 
 ### 9. Instructor Do:  Review: Keeping Inventory Part II
 
-Open the [04-InvControl_Part2 Solution Code](link) or the [Solution Spreadsheet](https://docs.google.com/spreadsheets/d/1izJAXW77oYjh2MPspuGUjirxJ2ZViJfztjcMbhi2Dwk/copy) and open the ScriptEditor.
+Open the [04-InvControl_Part2 Solution Code](https://github.com/racquesta/sampleLesson/blob/master/Activities/05-Stu_InvControl_Part2/Solved/addInventory_solved.gs) or the [Solution Spreadsheet](https://docs.google.com/spreadsheets/d/1izJAXW77oYjh2MPspuGUjirxJ2ZViJfztjcMbhi2Dwk/copy) and open the ScriptEditor.
 
 Ask students to go over the additions to the code, and explain what each does.  
 
@@ -224,6 +224,7 @@ Ask students to go over the additions to the code, and explain what each does.
 
 Ask students whether they completed the bonus code.  Ask them to share their solution.  Show the ability to create a custom  menu if no student goes over it.  The bonus code can be found [here] and in the script editor.  You will have to choose `bonus.gs` from the left menu.  *Note: You can access functions and variables from other code files within a google speadsheet.*
 
+[Bonus Solution Code](
 `onOpen` is a reserved function name in Google, and `e` asks similar to `this`.  In this case it represents the spreadsheet being opened.    
 
 ![04-InvControlCustomMenu](Images/04-InvControlCustomMenu)
