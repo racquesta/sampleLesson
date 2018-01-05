@@ -140,7 +140,7 @@ Bonus:  Create an additional function that returns the spreadsheet to its origin
 
 Hint:  You may want to incorporate javascript conditionals and/or loops to make youe code more efficient.  
 
-
+### 6. Instructor Do: Review Pixel Art
 
 
 ### 6. Instructor Do: Keeping Inventory
