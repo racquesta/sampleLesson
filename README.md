@@ -165,7 +165,7 @@ Open the [02-Ins_KeepingInventory]() Google Sheet and script and walk through co
 
 ![04-OfficeInventoryCode2](Images/04-OfficeInventoryCode2.png)
 
-3. We then use index of the response item to determine whether or not the item is in inventory.  If it is, we prompt the user for a value to add, and if not, we alert the user that tat item is not in inventory.  
+3. We then use index of the response item to determine whether or not the item is in inventory.  If it is, we prompt the user for a value to add, and if not, we alert the user that the item is not in inventory.  
 
 ![04-OfficeInventoryCode3](Images/04-OfficeInventoryCode3.png)
 
