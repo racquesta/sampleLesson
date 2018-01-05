@@ -267,9 +267,12 @@ Ask for volunteers to go over how they solve the problem above.  Use the below c
 
 ### 13.  CHALLENGE/HW
 
-Using this file: https://docs.google.com/spreadsheets/d/17xtQTlqTQv9fEGHdHVaJsvYDGFVgtZ2inTmaUtE-_1k/copy programatically create an additional column to hold the boardgame category.  Columns 0 through V hold rankings with each category.  If that cells hold value, the board game fits into that category.  Some boardgames fall into several categorys, choose that category that has the higher ranking.  
+__Instructions__:
 
-Additionally, create a line graph showing 
+Using this file: https://docs.google.com/spreadsheets/d/17xtQTlqTQv9fEGHdHVaJsvYDGFVgtZ2inTmaUtE-_1k/copy programatically create an additional column to hold the boardgame category.  Columns 0 through V hold rankings with each category.  If that cells hold value, the board game fits into that category.  Some boardgames fall into several categorys, choose the category that appears first from left to right. 
+
+Go beyond: Use the information provided in the spreadsheet to programatically make meaningful charts.  
+
 
 
 
