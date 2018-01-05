@@ -19,18 +19,43 @@ function colorFace() {
             curCell.setBackground('#00ff00')
             };
       };
+    };
+     
       
-    //color eyes brown 
+     // color eyes brown 
     // saddle brown = #8B4513	
       sheet.getRange("F6:F7").setBackground('#8B4513');
       sheet.getRange("K6:K7").setBackground('#8B4513');
+      
+    //add an asterisk for eye shine ;)
+      sheet.getRange('F6').setValue('*');
+      sheet.getRange('K6').setValue('*');
       
     //color eyes red;
     // red = #ff0000
       sheet.getRange("F13:K13").setBackground('#ff0000');
       sheet.getRange("G14:J14").setBackground('#ff0000');
       sheet.getRange("H15:I15").setBackground('#ff0000');
-      
-    };
     
+  };
+  
+  
+  
+  //********BONUS************//
+  function resetFace(){
+    var sheet = SpreadsheetApp.getActiveSheet();
+    
+    for (i=3; i<20; i++){
+      //loop though column coordinates
+      for (j=3; j<15; j++){
+        var curCell = sheet.getRange(i,j);
+        //if color is not black (#000000) then color the cell white
+        if (curCell.getBackground() != '#000000'){
+            curCell.setBackground('#ffffff')
+            };
+      };
+    };
+      sheet.getRange('F6').clearContent();
+      sheet.getRange('K6').clearContent();
+  
   };
