@@ -132,7 +132,8 @@ If you desire to run several functions from one script, you must call them from 
 
 Open the Google Sheets file at the provided link, and run the code to demonstrate the solution to students. 
 
-Slack out the Instructions to students: [03-Stu_PixelArt Instructions](https://github.com/racquesta/sampleLesson/blob/master/Activities/03-Stu_PixelArt/Instructions.md)
+__Slack out the Instructions to students: [03-Stu_PixelArt Instructions]__
+(https://github.com/racquesta/sampleLesson/blob/master/Activities/03-Stu_PixelArt/Instructions.md)
 
 Google Sheets File : https://docs.google.com/spreadsheets/d/1k3SnVr-ghBhsfBYd1n1v0aG7XgGMwA9Cpnge4CYDrWQ/copy 
 
@@ -150,6 +151,15 @@ Hint:  You may want to incorporate javascript conditionals and/or loops to make 
 
 ### 6. Instructor Do: Review: Pixel Art
 
+While going over the [Pixel Art Solution](link) with students, ask student for suggestions of how they completed their code.  
+
+Be sure to highlight the use of a nested loop if you feel it is necessary for your students.  
+
+![04-PixelArtSolutionLoop](Images/04-PixelArtSolutionLoop.png)
+
+Go over the Bonus solution.
+
+![04-PixelArtBonusSolution](Images/04-PixelArtBonusSolution.png)
 
 ### 7. Instructor Do: Keeping Inventory Part 1
 
