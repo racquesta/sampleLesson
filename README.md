@@ -138,7 +138,7 @@ https://docs.google.com/spreadsheets/d/1k3SnVr-ghBhsfBYd1n1v0aG7XgGMwA9Cpnge4CYD
 
 Bonus:  Create an additional function that returns the spreadsheet to its original state.  
 
-Hint:  You may want to incorporate javascripts conditionals and/or loops to make youe code more efficient.  
+Hint:  You may want to incorporate javascript conditionals and/or loops to make youe code more efficient.  
 
 
 
