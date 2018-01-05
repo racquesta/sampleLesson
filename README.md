@@ -263,7 +263,7 @@ A programatically created chart is really no good if it doesn't have the ability
 
 Ask for volunteers to go over how they solve the problem above.  Use the below code only if needed.  
 
-![07-TroublshootingUpdates](Images/07-TroubleshootingUpdates.png)
+![07-TroubleshootingUpdates](Images/07-TroublshootingUpdates.png)
 
 ### 13.  CHALLENGE
 
