@@ -224,7 +224,7 @@ Ask students to go over the additions to the code, and explain what each does.
 
 Ask students whether they completed the bonus code.  Ask them to share their solution.  Show the ability to create a custom  menu if no student goes over it.  
 
-`onOpen` is a reserved function name in Google, and e asks similar to `this`.  In this case it represents the spreadsheet being opened.    
+`onOpen` is a reserved function name in Google, and `e` asks similar to `this`.  In this case it represents the spreadsheet being opened.    
 
 ![04-InvControlCustomMenu](Images/04-InvControlCustomMenu)
 ![04-InvControlBonusSolutionFunction](Images/04-InvControlBonusSolutionFunction)
