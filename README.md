@@ -216,6 +216,20 @@ Hints:
 
 ### 9. Instructor Do:  Review: Keeping Inventory Part II
 
+Open the [04-InvControl_Part2 Solution Code](link) or the [Solution Spreadsheet](https://docs.google.com/spreadsheets/d/1izJAXW77oYjh2MPspuGUjirxJ2ZViJfztjcMbhi2Dwk/edit#gid=0) and open the ScriptEditor.
+
+Ask students to go over the additions to the code, and explain what each does.  
+
+![04-InvControlSolution](Images/04-InvControlSolution.png)
+
+Ask students whether they completed the bonus code.  Ask them to share their solution.  Show the ability to create a custom  menu if no student goes over it.  
+
+`onOpen` is a reserved function name in Google, and e asks similar to `this`.  In this case it represents the spreadsheet being opened.    
+
+![04-InvControlCustomMenu](Images/04-InvControlCustomMenu)
+![04-InvControlBonusSolutionFunction](Images/04-InvControlBonusSolutionFunction)
+
+
 
 ### 10.  Students Do:  Football Scoresheet
 
