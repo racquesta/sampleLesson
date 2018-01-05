@@ -155,11 +155,43 @@ Hint:  You may want to incorporate javascript conditionals and/or loops to make 
 
 In this activity, we will be making use of Google's ui class to make dialogs that allow us to interact with the script.  We will be creating a simple interface that allows us to add inventory to a list.  Note that in this activity we will be incorporating more basic javascript into our code.  
 
-Open the [02-Ins_KeepingInventory]() Google Sheet and script and walk through code with students.
+Open the [02-Ins_KeepingInventory]() Google Sheet and script and walk through code with students: https://docs.google.com/spreadsheets/d/1izJAXW77oYjh2MPspuGUjirxJ2ZViJfztjcMbhi2Dwk/copy
 
+1. We need to create the instance of the sheet class as always.  Then, we create an instance of the ui class by using `getUi()`.  The ui class instance is then chained with the `.prompt` method which has been given the parameters (title, prompt text, and a button set). We then save the response in the variable `responseText`.
 
+![04-OfficeInventoryCode1](Images/04-OfficeInventoryCode1.png)
+
+2. Then, we turn our attention to getting the current inventory items from the sheet to compare against the response.  We use a method similar to the last example.  Since, the values in the range return as a 2D Array, we use another function to 'flatten' it into a 1D Array.  This allows us to find the index of the identified item using javascript's `indexOf` method.
+
+![04-OfficeInventoryCode2](Images/04-OfficeInventoryCode2.png)
+![04-OfficeInventoryCode_1DArray](Images/04-OfficeInventoryCode_1DArray.png)
+
+3. We then use index of the response item to determine whether or not the item is in inventory.  If it is, we prompt the user for a value to add, and if not, we alert the user that tat item is not in inventory.  
+
+![04-OfficeInventoryCode3](Images/04-OfficeInventoryCode3.png)
 
 ### 8. Students Do: Keeping Inventory Part II
+
+In this activity, students will be editing the [04-OfficeInventory] script to return a different alert if the item is not in ventory.  
+
+Slack out the Instructions to Students: 
+
+Oh no!  The current inventory interface is not very friendly and does not offer the ability to add new items to the list.  Open the speadsheet at https://docs.google.com/spreadsheets/d/1izJAXW77oYjh2MPspuGUjirxJ2ZViJfztjcMbhi2Dwk/copy and alter the script to do the following.
+
+1. If the item is not in inventory, alert the user that this is the case, and ask then to check their spelling.  (You might even want to eliminate the case-sensitivity.)  
+
+2. In the same alert, allow the user to press YES to add the the item to the inventory list, and NO to cancel.  
+
+3.  Collect the response to the alert, and if the user responded with YES, add the item to the list.  Then, prompt the user to give a value, and add it to the appropriate place.
+
+BONUS: (Your choice!)
+* Add a custom menu or sidebar that will run your script.
+
+* Handle users not entering a number on the prompt screen for values.  
+
+Hints:  
+
+* Utilize the google apps scripts reference section for additional ideas and help with available methods.
 
 
 ### 9. Instructor Do:  Review Keeping Inventory Part II
