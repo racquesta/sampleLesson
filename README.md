@@ -153,7 +153,9 @@ Hint:  You may want to incorporate javascript conditionals and/or loops to make 
 
 ### 7. Instructor Do: Keeping Inventory Part 1
 
-Open the [02-Ins_KeepingInventory]() Google Sheet and script and walk through code with students.  
+In this activity, we will be making use of Google's ui class to make dialogs that allow us to interact with the script.  We will be creating a simple interface that allows us to add inventory to a list.  Note that in this activity we will be incorporating more basic javascript into our code.  
+
+Open the [02-Ins_KeepingInventory]() Google Sheet and script and walk through code with students.
 
 
 
