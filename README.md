@@ -159,7 +159,7 @@ Be sure to highlight the use of a nested loop if you feel it is necessary for yo
 
 Go over the Bonus solution.
 
-![04-PixelArtBonusSolution](Images/04-PixelArtBonusSolution.png)
+![04-PixelArtBonus](Images/04-PixelArtBonus.png)
 
 ### 7. Instructor Do: Keeping Inventory Part 1
 
