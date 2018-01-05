@@ -1,4 +1,11 @@
-var prompt = ui.prompt('Add Items', 'What item would you like to add?', ui.ButtonSet.OK_CANCEL)
+function addInventory() {
+  
+  //link current sheet
+  var sheet = SpreadsheetApp.getActiveSheet();
+  
+  //create a user interface prompt
+  var ui = SpreadsheetApp.getUi();
+  var prompt = ui.prompt('Add Items', 'What item would you like to add?', ui.ButtonSet.OK_CANCEL)
   
   // save the response text from the promt as a variable
   var responseText = prompt.getResponseText();
@@ -41,12 +48,6 @@ var prompt = ui.prompt('Add Items', 'What item would you like to add?', ui.Butto
     var alert3 = ui3.alert("Sorry, " + responseText + " is not a valid inventory item.", ui.ButtonSet.OK);
         
   };
-  
-  
-  
-  
- 
-  
   
 };
 

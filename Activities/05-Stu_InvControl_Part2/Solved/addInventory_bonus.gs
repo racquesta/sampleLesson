@@ -1,4 +1,13 @@
-function addInventory() {
+//create custom menu
+function onOpen() {
+  var ui = SpreadsheetApp.getUi();
+  ui.createMenu('Custom Menu')
+      .addItem('Add Inventory', 'addInventoryBonus')
+      .addToUi();
+};
+
+// main function
+  function addInventoryBonus() {
     //link current sheet
     var sheet = SpreadsheetApp.getActiveSheet();
     
@@ -24,51 +33,39 @@ function addInventory() {
     
     Logger.log(itemsArray);
     
+    //Add one to add the header row and account for different indexing
     var responseIndex = itemsArray.indexOf(responseText)
     
     // check to see if response is in items array
     if (responseIndex != -1){
-      var ui2 = SpreadsheetApp.getUi();
-      var prompt2 = ui2.prompt("How many " + responseText + " would you like to add?", ui.ButtonSet.OK)
       
-      var response2 = parseInt(prompt2.getResponseText())
-      
-      // add amount to existing amount
-      var itemCurValueCell = sheet.getRange(responseIndex + 2, 2);
-      var newValue = parseInt(itemCurValueCell.getValue()) + response2;
-      itemCurValueCell.setValue(newValue)
+      //run howMany function
+      howMany(sheet, responseText, responseIndex);
   
     } else {
       // give user the option to add an item.
       var ui3 = SpreadsheetApp.getUi();
     
+      //alert user of issue
       var alert3 = ui.alert(responseText + " is not currently in inventory. \
                             Please check your spelling.  \
                             Press 'YES' to add the item. \
-                            Press 'NO' to Cancel.", ui.ButtonSet.YES_NO)
+                            Press 'NO' to Cancel.", ui3.ButtonSet.YES_NO)
       
+      //if yes
       if (alert3 == ui.Button.YES){ 
         
+        //set item name
         sheet.getRange(lastRow + 1, 1).setValue(responseText)
-        sheet.getRange(lastRow + 1, 2).setValue
-      }
-      
-          
-    }
-    
-    
-    // find index of of item in array
-    Logger.log(responseIndex)
-    
-    
-    
-    //var itemList = sheet.getRange(').getValues();
-    
-    //Logger.log(range);
-    
-    
+        //run howMany function to add amount
+        howMany(sheet, responseText, lastRow - 1)
+      };     
+    };
   };
   
+
+
+// flatten array function
   function convertTo1D(twoDArray) {
     var oneDArray = [];
     
@@ -79,6 +76,27 @@ function addInventory() {
                     
   };
   
-  function howMany(){
+  
+
+//howMany function to prevent repeat
+  function howMany(sheet, itemName, responseIndex){
+    // promt for how many
+      var ui2 = SpreadsheetApp.getUi();
+      var prompt2 = ui2.prompt("How many " + itemName + " would you like to add?", ui2.ButtonSet.OK);
+      
+      var response2 = parseInt(prompt2.getResponseText());
+      
     
-  }
+    //Add one to add the header row and one to account for different indexing
+      var itemCurValueCell = sheet.getRange(responseIndex + 2, 2);
+    
+    // get current value if there is one, if not, set to 0
+      var curValue = parseInt(itemCurValueCell.getValue())
+      if (!curValue){
+        curValue = 0
+      };
+    //calculate new value and set to correct destination
+      var newValue = curValue + response2;
+      itemCurValueCell.setValue(newValue)
+    
+  };
