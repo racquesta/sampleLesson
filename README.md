@@ -148,7 +148,7 @@ Hint:  You may want to incorporate javascript conditionals and/or loops to make 
 
 ![03-PixelArt](Images/03-PixelArt.png)
 
-### 6. Instructor Do: Review Pixel Art
+### 6. Instructor Do: Review: Pixel Art
 
 
 ### 7. Instructor Do: Keeping Inventory Part 1
@@ -184,17 +184,17 @@ Oh no!  The current inventory interface is not very friendly and does not offer 
 
 3.  Collect the response to the alert, and if the user responded with YES, add the item to the list.  Then, prompt the user to give a value, and add it to the appropriate place.
 
-BONUS: (Your choice!)
+BONUS: 
 * Add a custom menu or sidebar that will run your script.
 
-* Handle users not entering a number on the prompt screen for values.  
+* Utilize a function to create prompts to retrieve a user input for item amount.  Use that function for each time a number input is needed.  
 
 Hints:  
 
 * Utilize the google apps scripts reference section for additional ideas and help with available methods.
 
 
-### 9. Instructor Do:  Review Keeping Inventory Part II
+### 9. Instructor Do:  Review: Keeping Inventory Part II
 
 
 ### 10.  Students Do:  Football Scoresheet
