@@ -164,7 +164,6 @@ Open the [02-Ins_KeepingInventory]() Google Sheet and script and walk through co
 2. Then, we turn our attention to getting the current inventory items from the sheet to compare against the response.  We use a method similar to the last example.  Since, the values in the range return as a 2D Array, we use another function to 'flatten' it into a 1D Array.  This allows us to find the index of the identified item using javascript's `indexOf` method.
 
 ![04-OfficeInventoryCode2](Images/04-OfficeInventoryCode2.png)
-![04-OfficeInventoryCode_1DArray](Images/04-OfficeInventoryCode_1DArray.png)
 
 3. We then use index of the response item to determine whether or not the item is in inventory.  If it is, we prompt the user for a value to add, and if not, we alert the user that tat item is not in inventory.  
 
