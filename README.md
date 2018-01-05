@@ -8,8 +8,8 @@ Today, we will introducing student to to Google Apps Script which can be used to
 
 * Students should be able to apply methods specific to Google Apps Script to manipulate a Google Sheets file and create a new event.  
 * Students should complete `03-Stu_PixelArt`.
-* Students should complete `04-Stu_OfficeInventory_PartII`
-* Students should complete `05-Stu_EmbeddingCharts`
+* Students should complete `04-Stu_OfficeInventory_PartII`.
+* Students should complete `05-Stu_UpdatingCharts`.
 
 
 ##### Instructor Notes
