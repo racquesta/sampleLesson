@@ -222,7 +222,7 @@ Ask students to go over the additions to the code, and explain what each does.
 
 ![04-InvControlSolution](Images/04-InvControlSolution.png)
 
-Ask students whether they completed the bonus code.  Ask them to share their solution.  Show the ability to create a custom  menu if no student goes over it.  
+Ask students whether they completed the bonus code.  Ask them to share their solution.  Show the ability to create a custom  menu if no student goes over it.  The bonus code can be found [here] and in the script editor.  You will have to choose `bonus.gs` from the left menu.  *Note: You can access functions and variables from other code files within a google speadsheet.*
 
 `onOpen` is a reserved function name in Google, and `e` asks similar to `this`.  In this case it represents the spreadsheet being opened.    
 
