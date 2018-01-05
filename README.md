@@ -172,7 +172,7 @@ Open the [02-Ins_KeepingInventory]() Google Sheet and script and walk through co
 
 ### 8. Students Do: Keeping Inventory Part II
 
-In this activity, students will be editing the [04-OfficeInventory] script to return a different alert if the item is not in ventory.  
+In this activity, students will be editing the [04-OfficeInventory](https://github.com/racquesta/sampleLesson/blob/master/Activities/04-Ins_InvControl_Part1/addInventory.gs) script to return a different alert if the item is not in ventory.  
 
 Slack out the [Instructions](https://github.com/racquesta/sampleLesson/blob/master/Activities/05-Stu_InvControl_Part2/Instructions.md) to Students: 
 
