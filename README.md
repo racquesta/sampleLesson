@@ -124,6 +124,10 @@ If you desire to run several functions from one script, you must call them from 
 
 ### 5. Students Do: Pixel Art
 
+Slack the link below as well as the Instuctions
+
+https://docs.google.com/spreadsheets/d/1k3SnVr-ghBhsfBYd1n1v0aG7XgGMwA9Cpnge4CYDrWQ/copy 
+
 
 
 ### 6. Instructor Do: Keeping Inventory
