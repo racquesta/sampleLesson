@@ -233,7 +233,38 @@ Ask students whether they completed the bonus code.  Ask them to share their sol
 
 
 
-### 10.  Students Do:  Football Scoresheet
+### 10.  Instructor Do:  Charting Calories
+
+This activity is to assimilate students with using Google's chart builder feature.  
+
+Go over the code for students or have them talk briefly to each other about what they think the code does and how it works as a class.  
+
+There are a couple things to highlight in this code:
+
+1. We create an instance of the entire spreadsheet this time as we will be adding a sheet.  
+
+2. Identify the ranges dynamatically by finding `lastRow `, and save those ranges as variables.    
+
+3. We build the chart in the `chartBuilder` variable and then in order for the chart to appear we must call `.build()` on it, and then add to to the correct sheet.  
+
+### 11. Pairs Do: Troubleshooting Chart Updates
+
+Slack out the speadsheet link to students.  Explain the directions below.    
+
+A programatically created chart is really no good if it doesn't have the ability to update with new data.  Alter the code so that the graph updates upon running the function.  
+
+### 12.  Instructor Do: Review: Troubleshooting Chart Updates
+
+Ask for volunteers to go over how they solve the problem above.  Use the below code only if needed.  
+
+![06-
+
+### 13.  CHALLENGE: 
+
+
+
+
+
 
 
 
