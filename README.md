@@ -176,7 +176,7 @@ Go over the Bonus solution.
 
 In this activity, we will be making use of Google's ui class to make dialogs that allow us to interact with the script.  We will be creating a simple interface that allows us to add inventory to a list.  Note that in this activity we will be incorporating more basic javascript into our code.  
 
-Open the [02-Ins_KeepingInventory]() Google Sheet and script and walk through code with students: https://docs.google.com/spreadsheets/d/1izJAXW77oYjh2MPspuGUjirxJ2ZViJfztjcMbhi2Dwk/copy
+Open the [04-Ins_InvControl_Part1](https://github.com/racquesta/sampleLesson/blob/master/Activities/04-Ins_InvControl_Part1/addInventory.gs) Google Sheet and script and walk through code with students: https://docs.google.com/spreadsheets/d/1izJAXW77oYjh2MPspuGUjirxJ2ZViJfztjcMbhi2Dwk/copy
 
 1. We need to create the instance of the sheet class as always.  Then, we create an instance of the ui class by using `getUi()`.  The ui class instance is then chained with the `.prompt` method which has been given the parameters (title, prompt text, and a button set). We then save the response in the variable `responseText`.
 
