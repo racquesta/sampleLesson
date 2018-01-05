@@ -243,9 +243,15 @@ There are a couple things to highlight in this code:
 
 1. We create an instance of the entire spreadsheet this time as we will be adding a sheet.  
 
+![06-ChartingCaloriesCode1](Images/06-ChartingCaloriesCode1.png)
+
 2. Identify the ranges dynamatically by finding `lastRow `, and save those ranges as variables.    
 
+![06-ChartingCaloriesCode2](Images/06-ChartingCaloriesCode2.png)
+
 3. We build the chart in the `chartBuilder` variable and then in order for the chart to appear we must call `.build()` on it, and then add to to the correct sheet.  
+
+![06-ChartingCaloriesCode3](Images/06-ChartingCaloriesCode3.png)
 
 ### 11. Pairs Do: Troubleshooting Chart Updates
 
@@ -257,7 +263,7 @@ A programatically created chart is really no good if it doesn't have the ability
 
 Ask for volunteers to go over how they solve the problem above.  Use the below code only if needed.  
 
-![06-TroubleshootingUpdates](Images/06-TroubleshootingUpdates.png)
+![07-TroubleshootingUpdates](Images/07-TroubleshootingUpdates.png)
 
 ### 13.  CHALLENGE
 
