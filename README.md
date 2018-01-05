@@ -98,7 +98,7 @@ If you desire to run several functions from one script, you must call them from 
 
 1. The first function covers several ways to indentify a range of cells with Google Apps Script.  
 
-* Note that the method `getRange()` only returns a range object, but does not return the values contained in that range.  This object can be chained with .getValues() to return a *2D array of values*.
+* Note that the method `getRange()` only returns a range object, but does not return the values contained in that range.  This object can be chained with `.getValues()` to return a *2D array of values*.
 
 ![02-rowRangeCode1](Images/02-rowRangeCode1.png)![02-rowRangeOutput](Images/02-rowRangeOutput.png)
 
