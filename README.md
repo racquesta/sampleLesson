@@ -140,6 +140,8 @@ Bonus:  Create an additional function that returns the spreadsheet to its origin
 
 Hint:  You may want to incorporate javascript conditionals and/or loops to make your code more efficient.  
 
+![03-PixelArt](Images/03-PixelArt.png)
+
 ### 6. Instructor Do: Review Pixel Art
 
 
