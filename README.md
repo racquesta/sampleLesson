@@ -226,7 +226,7 @@ Ask students whether they completed the bonus code.  Ask them to share their sol
 
 [Bonus Solution Code](https://github.com/racquesta/sampleLesson/blob/master/Activities/05-Stu_InvControl_Part2/Solved/addInventory_bonus.gs)
 
-`onOpen` is a reserved function name in Google, and `e` asks similar to `this`.  In this case it represents the spreadsheet being opened.    
+`onOpen` is a reserved function name in Google that allows you to set s simple trigger.  In this case, on open a custom menu will be added.  
 
 ![04-InvControlCustomMenu](Images/04-InvControlCustomMenu.png)
 ![04-InvControlBonusSolutionFunction](Images/04-InvControlBonusSolutionFunction.png)
